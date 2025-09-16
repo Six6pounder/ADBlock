@@ -1,0 +1,20 @@
+[Adblock Plus 2.0]
+! Title: Personal AdBlock Filter List
+! Description: Custom adblock rules for personal use
+! Last modified: 2025-09-16
+! Expires: 7 days
+! Homepage:
+! Version: 1.0.0
+
+! Social Media Girls Forum filters
+forums.socialmediagirls.com##.js-offCanvasNavSource li:nth-child(n+3) .p-navEl-link
+forums.socialmediagirls.com##.node--link .node-body
+forums.socialmediagirls.com##.jamLinkUnitsevenjulytwofour
+forums.socialmediagirls.com##.aigirlfriendad-wrapper
+
+! Bunkr site filters
+bunkr.site##[id^="__clb-spot_"]
+
+! Block tracking/analytics domains
+||w-gcb-app.herokuapp.com^
+||w.blocky-app.com^

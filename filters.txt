@@ -15,6 +15,15 @@ forums.socialmediagirls.com##.aigirlfriendad-wrapper
 ! Bunkr site filters
 bunkr.site##[id^="__clb-spot_"]
 
+! Ashemaletube.com filters
+ashemaletube.com##li:has(a[rel="sponsored"])
+ashemaletube.com##div.js-toggle-content-wrapper:has(.adblock)
+ashemaletube.com##div.adblock
+ashemaletube.com##div.ads-block-rightside
+ashemaletube.com##div.wgt-container:has(.ad-text)
+ashemaletube.com##div.fh-line2
+ashemaletube.com##a.fh-line
+
 ! Block tracking/analytics domains
 ||w-gcb-app.herokuapp.com^
 ||w.blocky-app.com^

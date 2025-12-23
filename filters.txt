@@ -30,3 +30,4 @@ ashemaletube.com##a.fh-line
 
 ! ForexFactory
 forexfactory.com##.whitelist
+forexfactory.com##.footer__branding , .sidebar__panel--adbit div

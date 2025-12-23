@@ -27,3 +27,6 @@ ashemaletube.com##a.fh-line
 ! Block tracking/analytics domains
 ||w-gcb-app.herokuapp.com^
 ||w.blocky-app.com^
+
+! ForexFactory
+forexfactory.com##.whitelist

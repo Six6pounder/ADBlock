@@ -24,6 +24,9 @@ ashemaletube.com##div.wgt-container:has(.ad-text)
 ashemaletube.com##div.fh-line2
 ashemaletube.com##a.fh-line
 ashemaletube.com##.mtile-x7.js-quiet
+ashemaletube.com##.info-block-wrapper > div:not(#item-info)
+ashemaletube.com##.rightside2 .side-content-block
+ashemaletube.com##.navmenu li:has(> a[rel="nofollow"])
 
 ! Block tracking/analytics domains
 ||w-gcb-app.herokuapp.com^

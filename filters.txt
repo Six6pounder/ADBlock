@@ -38,3 +38,11 @@ forexfactory.com##.footer__branding , .sidebar__panel--adbit div
 
 ! Deepbrid ChatBox
 deepbrid.com##.crisp-client
+
+! F95zone
+f95zone.to##.xfa-nit-node-icon , .node--link .js-nodeMain
+! Injected top banner: id/class are randomized per load, so match on shape:
+! a body-level bar positioned with inline fixed styling that links off-site.
+f95zone.to##body > div[style*="position: fixed"][style*="z-index"]:has(a[target="_blank"][href^="http"]:not([href*="f95zone"]))
+! Whitespace-tolerant variant if the inline style gets serialized differently:
+! f95zone.to##body > div:matches-attr("style"="/position:\s*fixed/"):has(a[target="_blank"][href^="http"]:not([href*="f95zone"]))

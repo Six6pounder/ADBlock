@@ -42,6 +42,7 @@ deepbrid.com##.crisp-client
 ! F95zone
 f95zone.to##.xfa-nit-node-icon , .node--link .js-nodeMain
 f95zone.to##.node--link .node-body
+f95zone.to##.js-offCanvasNavSource li:nth-child(n+3) .p-navEl-link
 ! Injected top banner: id/class are randomized per load, so match on shape:
 ! a body-level bar positioned with inline fixed styling that links off-site.
 f95zone.to##body > div[style*="position: fixed"][style*="z-index"]:has(a[target="_blank"][href^="http"]:not([href*="f95zone"]))
